@@ -3,14 +3,6 @@ let guestCount = 0
 let homeScore = document.getElementById("home-score-counter")
 let guestScore = document.getElementById("guest-score-counter")
 
-let homeScoreIncrement1 = document.getElementById("home-score-1")
-let homeScoreIncrement2 = document.getElementById("home-score-2")
-let homeScoreIncrement3 = document.getElementById("home-score-3")
-
-let guestScoreIncrement1 = document.getElementById("guest-score-1")
-let guestScoreIncrement2 = document.getElementById("guest-score-2")
-let guestScoreIncrement3 = document.getElementById("guest-score-3")
-
 function homeScore1(){
     homeCount += 1
     homeScore.innerText = homeCount
